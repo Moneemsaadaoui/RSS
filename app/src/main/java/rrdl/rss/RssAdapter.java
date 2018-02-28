@@ -51,6 +51,7 @@ public class RssAdapter extends RecyclerView.Adapter<RssAdapter.ArticleViewHolde
         public ArticleViewHolder(View itemView) {
             super(itemView);
             mTitle=itemView.findViewById(R.id.title);
+            
         }
         public void setElement(Element element)
         {
